@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(237,236,186);
+    background: linear-gradient(90deg, rgba(237,236,186,1) 0%, rgba(238,255,201,1) 5%, rgba(226,255,205,1) 27%, rgba(175,255,243,1) 72%, rgba(192,255,236,1) 80%, rgba(254,255,190,1) 99%);
+color: rgb(32, 7, 90);
+font-size: 18px;;
+font-weight: 400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.images{
+    width: 100px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    padding:15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.main{
+    width: 1800px ;
+    height: 800px;
+
+    margin: 15 px auto;
+    border-spacing: 25px;
+
+}
+ .main-left, .main-right{
+     border-radius: 5px;
+     margin: 0 15px;
+     padding: 0 25px;
+     -webkit-box-shadow: 5px 14px 40px 20px rgba(0,0,0,0.36); 
+box-shadow: 5px 14px 40px 20px rgba(0,0,0,0.36);
+ }
+
+ .main-left{
+     width: 300px;
+ }
+ .main-left td{
+     width: 300px;
+     padding: 10px 30px ;
+     border-bottom: 1px solid black;
+     text-align: center;
+ }
+
+ .main-right{
+     width:1000px;
+ }
+
+ .main-right td{
+     width: 1250px;
+     height: 150px;
+
+     padding: 10px 30px;
+     border-bottom: 1px solid black;
+     text-align: center;
+ }
+
+ .btn{
+     padding: 10px 30px;
+     text-decoration: none;
+     background-color: rgb(171, 245, 171);
+ }
+
+ .btn:hover{
+    -webkit-box-shadow: 0px 0px 14px -1px #000000; 
+    box-shadow: 0px 0px 14px -1px #000000;
+}
+ img{
+    width: 200px;
+    height: 200px;
+}
+
+h1 span{
+    color:rgb(18, 212, 115)
+}
+    
